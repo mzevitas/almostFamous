@@ -1,0 +1,53 @@
+body {
+	background-color: #3b7273;
+	font-family: 'Blanch-Caps';
+	font-size: 100%;
+	margin:0;
+  padding:0;
+}
+
+h1 {
+	font-size: 3em;
+	letter-spacing: 2px;
+	margin: 0;
+	z-index: 1 !important;
+}
+
+.fullPanel {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+
+
+}
+.content {
+	max-width:1024px;
+	width: 95%;
+	margin: 0 auto;
+
+}
+
+.grid2 {
+	width: 45%;
+	margin: 0px auto;
+	padding: 60px 0px;
+	display: inline-block;
+	vertical-align: top;
+	@media #{$mobile-either} {
+		width: 100%;
+		display: block;
+		padding: 20px 0px;
+    }
+}
+.grid3 {
+	width: 30%;
+	margin: 0px auto;
+	padding: 40px 0px;
+	display: inline-block;
+	@media #{$mobile-either} {
+		width: 100%;
+		display: block;
+		padding: 20px 0px;
+    }
+}

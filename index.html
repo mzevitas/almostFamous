@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Almost Famous Atlanta | Premier Cover Band in Atlanta Georgia. </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- build:css assets/css/style.min.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- /build -->
+    <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
+</head>
+
+<body ng-app="AlmostFamous">
+   
+<div class="navigation">
+<div class="left">
+	<a ui-sref="home"><h1>ALMOST FAMOUS</h1></a>
+</div>
+<div class="navDiv">
+<div class="nav">
+	<ul>
+		<li><a ui-sref="home">Home</a></li>
+		<li><a ui-sref="about">About</a></li>
+		<li><a ui-sref="events">Events</a></li>
+		<li><a ui-sref="songs">Songs</a></li>
+		<li><a ui-sref="booking">Book Us</a></li>
+	</ul>
+</div>
+</div>
+</div>
+<div class="container">
+	
+
+<div class="navigationMobile">
+	
+	<div class="button_container" id="toggle">
+  <span class="top"></span>
+  <span class="middle"></span>
+  <span class="bottom"></span>
+</div>
+<div class="left">
+	<a ui-sref="home"><h1>ALMOST FAMOUS</h1></a>
+</div>
+
+<div class="overlay" id="overlay">
+	<div class="left">
+	<a ui-sref="home"><h1>ALMOST FAMOUS</h1></a>
+</div>
+
+  <nav class="overlay-menu">
+    <ul>
+		<li><a ui-sref="home">Home</a></li>
+    
+      <li><a ui-sref="about">About</a></li>
+		<li><a ui-sref="events">Events</a></li>
+		<li><a ui-sref="songs">Songs</a></li>
+		<li><a ui-sref="booking">Book Us</a></li>
+    </ul>
+  </nav>
+</div>
+
+</div>
+</div>
+<div ui-view></div>
+
+
+    
+  <!-- build:js assets/js/script.min.js -->
+    <script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+    <!-- /build -->
+
+
+</body>
+
+</html>
